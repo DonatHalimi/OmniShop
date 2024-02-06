@@ -6,7 +6,7 @@ OmniShop is a comprehensive e-commerce website developed to provide users with a
 
 ## Live Demo
 
-Explore the OmniShop application live on [Vercel]().
+Explore the OmniShop application live on [Vercel](https://omni-shop-phi.vercel.app).
 
 ## Overview
 
@@ -25,6 +25,7 @@ OmniShop offers a diverse range of products, including tech gadgets, fashion ite
 - [React](https://reactjs.org/)
 - [Fake Store API](https://fakestoreapi.com/docs)
 - [Splide](https://splidejs.com/integration/react-splide/)
+- [EmailJS](https://www.emailjs.com)
 - [React Toastify](https://fkhadra.github.io/react-toastify/)
 - [FontAwesome](https://fontawesome.com/v6/docs/web/use-with/react/)
 
