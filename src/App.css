@@ -1,0 +1,204 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import '@splidejs/react-splide/css';
+
+@import '@splidejs/react-splide/css/sea-green';
+
+@import '@splidejs/react-splide/css/core';
+
+body {
+    background-color: #FFFFFF;
+}
+
+::selection {
+    background-color: #4B5563;
+    color: white;
+}
+
+.splide__pagination__page.is-active {
+    background-color: #4B5563;
+}
+
+.splide__pagination__page.is-active:focus {
+    background-color: #4B5563;
+}
+
+.splide__pagination__page:hover {
+    background-color: #a7b1bf;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #4B5563;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #53585e;
+    transition: all 0.5s ease-in-out;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+}
+
+body::-webkit-scrollbar-corner {
+    background-color: #FFFFFF;
+}
+
+.text-gradient-gray {
+    background: linear-gradient(to right, #dcdcdc, #4B5563);
+    background-clip: text;
+    color: transparent;
+}
+
+.navbar-link-active {
+    color: #90acc0;
+    font-weight: bold;
+    border-bottom: 2px solid #859fb1;
+}
+
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #4B5563 #FFFFFF;
+}
+
+.custom-scrollbar:hover {
+    scrollbar-color: #53585e #FFFFFF;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #4B5563;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #53585e;
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+    background-color: #FFFFFF;
+}
+
+.search-result-item {
+    max-width: 259px;
+    max-height: 332px;
+    gap: 2px;
+}
+
+.logo-image {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+.dropdown-list {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.contactContainer {
+    margin-top: 200px;
+}
+
+.noProductsInCartContainer {
+    margin-top: 200px;
+    margin-left: 600px;
+    border-radius: 10px;
+}
+
+.noProductsInCart {
+    max-width: 80%;
+}
+
+.noProductsInCart img {
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.cardTable {
+    margin-top: 300px;
+    margin-left: 11%;
+    border-radius: 10px;
+}
+
+.wishlistButton {
+    position: relative;
+    left: 60px;
+    bottom: 22px;
+    max-height: 39px;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.wishlistButton:hover {
+    background-color: #374151;
+}
+
+.wishlistButton:hover .heartIcon {
+    color: white;
+}
+
+.heartIcon {
+    position: relative;
+    bottom: 2px;
+}
+
+.wishlistDelete {
+    position: relative;
+    bottom: 14px;
+    left: 50px;
+    height: 39px;
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.wishlistDelete:hover {
+    background-color: #374151;
+}
+
+.wishlistDelete:hover .trashIcon {
+    color: white;
+}
+
+.wishlistDelete i :hover {
+    cursor: pointer;
+}
+
+.searchResult {
+    position: relative;
+    top: 55px;
+    width: 600px;
+}
+
+.circle-button {
+    position: relative;
+    top: 50px;
+}
