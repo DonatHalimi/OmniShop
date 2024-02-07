@@ -1,13 +1,14 @@
 ![Logo](image.png)
 
 # Table of Contents
-1. [OmniShop Overview](#overview)
+1. [Overview](#overview)
 2. [Live Demo](#live-demo)
 3. [Features](#features)
 4. [Technologies Used](#technologies-used)
 5. [Screenshots](#screenshots)
    - [Home Page](#home-page)
    - [Sorting Feature](#sorting-feature)
+   - [Filter by Category](#filter-by-category)
    - [Product Details](#product-details)
    - [Search Feature](#search-feature)
    - [Cart Page](#cart-page)
@@ -53,9 +54,13 @@ OmniShop offers a diverse range of products, including tech gadgets, fashion ite
 
 ![Sorting Feature](https://github.com/DonatHalimi/OmniShop/assets/118883706/c7378463-7864-4895-b85d-6610f424aab9)
 
+### Filter by Category
+
+![Sort by Category](https://github.com/DonatHalimi/OmniShop/assets/118883706/00e68f10-0a8d-4e56-a55b-cb8ddd748f40)
+
 ### Product Details
 
-![Product Details](https://github.com/DonatHalimi/OmniShop/assets/118883706/9f5a7ac2-78f6-4192-a03e-b6151381711e)
+![Product Details](https://github.com/DonatHalimi/OmniShop/assets/118883706/4986d996-12e1-4fa9-a0b7-4dfe5e85d059)
 
 ### Search Feature
 
