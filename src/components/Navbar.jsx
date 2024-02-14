@@ -131,7 +131,7 @@ export const Navbar = () => {
                 </button>
 
                 {isDropdownOpen && filteredProducts.length > 0 && (
-                    <ul className="mt-2 bg-white absolute left-20 border border-gray-300 rounded-md p-2 cursor-pointer p-3 pl-3 pr-6 cursor-pointer ml-20 w-96 dropdown-list custom-scrollbar">
+                    <ul className="mt-2 bg-white absolute left-20 border border-gray-300 rounded-md p-3 pl-3 pr-6 cursor-pointer ml-20 w-96 dropdown-list custom-scrollbar">
                         {filteredProducts.map((product, index) => (
                             <li key={product.id} onClick={() => handleProductClick(product.id)} className={`flex items-center cursor-pointer ${index !== 0 ? 'mt-6' : ''}`}>
                                 <img src={product.image} alt={product.title} className="w-8 h-8 mr-2" />
